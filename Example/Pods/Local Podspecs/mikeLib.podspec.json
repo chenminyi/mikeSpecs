@@ -1,0 +1,33 @@
+{
+  "name": "mikeLib",
+  "version": "0.1.0",
+  "summary": "mikeLib is for test on private in meilishuo",
+  "description": "mikeLib is for test on private in meilishuo, please not ss",
+  "homepage": "http://gitlabserver.meiliworks.com/mchen/mikelib",
+  "license": "MIT",
+  "authors": {
+    "Mike Chen": "chenminyi1984@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/mikeLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "mikeLib": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SDWebImage": [
+      "~> 3.7.3"
+    ],
+    "PureLayout": [
+      "~>3.0.1"
+    ]
+  }
+}

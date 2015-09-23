@@ -1,0 +1,6 @@
+framework module mikeLib {
+  umbrella header "mikeLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
